@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage x:Class="Xuni_QuickStart.XuniLinearGauge"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:xuni="clr-namespace:Xuni.Forms.Gauge;assembly=Xuni.Forms.Gauge"
+             Title="線形ゲージ">
+
+    <ContentPage.Content>
+
+        <StackLayout VerticalOptions="Center">
+            <xuni:XuniLinearGauge WidthRequest="50"
+                                  HeightRequest="50"
+                                  Direction="Right"
+                                  Max="100"
+                                  Min="0"
+                                  PointerColor="Blue"
+                                  Thickness="0.5"
+                                  Value="35">
+                <xuni:XuniLinearGauge.Ranges>
+                    <xuni:GaugeRange Max="40"
+                                     Min="0"
+                                     Color="Red" />
+                    <xuni:GaugeRange Max="80"
+                                     Min="40"
+                                     Color="Yellow" />
+                    <xuni:GaugeRange Max="100"
+                                     Min="80"
+                                     Color="Green" />
+                </xuni:XuniLinearGauge.Ranges>
+            </xuni:XuniLinearGauge>
+        </StackLayout>
+
+
+    </ContentPage.Content>
+</ContentPage>

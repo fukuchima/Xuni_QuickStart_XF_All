@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage x:Class="Xuni_QuickStart.XuniRadialGauge"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:xuni="clr-namespace:Xuni.Forms.Gauge;assembly=Xuni.Forms.Gauge"
+             Title="円形ゲージ">
+
+    <ContentPage.Content>
+
+        <StackLayout VerticalOptions="Center">
+            <xuni:XuniRadialGauge WidthRequest="50"
+                                  HeightRequest="100"
+                                  AutoScale="true"
+                                  Max="100"
+                                  Min="0"
+                                  PointerColor="Blue"
+                                  ShowText="None"
+                                  StartAngle="-20"
+                                  SweepAngle="220"
+                                  Value="35">
+                <xuni:XuniRadialGauge.Ranges>
+                    <xuni:GaugeRange Max="40"
+                                     Min="0"
+                                     Color="Red" />
+                    <xuni:GaugeRange Max="80"
+                                     Min="40"
+                                     Color="Yellow" />
+                    <xuni:GaugeRange Max="100"
+                                     Min="80"
+                                     Color="Green" />
+                </xuni:XuniRadialGauge.Ranges>
+            </xuni:XuniRadialGauge>
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,10 @@
+<WorkspaceItem ctype="Workspace">
+  <Items>
+    <Item>Xuni_QuickStart_Calendar/Xuni_QuickStart_Calendar.sln</Item>
+    <Item>Xuni_QuickStart_FlexChart/Xuni_QuickStart_FlexChart.sln</Item>
+    <Item>Xuni_QuickStart_FlexGrid/Xuni_QuickStart_FlexGrid.sln</Item>
+    <Item>Xuni_QuickStart_FlexPie/Xuni_QuickStart_FlexPie.sln</Item>
+    <Item>Xuni_QuickStart_Gauge/Xuni_QuickStart_Gauge.sln</Item>
+    <Item>Xuni_QuickStart_Input/Xuni_QuickStart_Input.sln</Item>
+  </Items>
+</WorkspaceItem>
